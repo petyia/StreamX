@@ -132,6 +132,7 @@ body {
 .logok-container {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   width: 100%;
   height: auto;
   padding: 9.6rem 0;

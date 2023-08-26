@@ -1,0 +1,72 @@
+@media screen and (max-width: 1480px) {
+  .nav-bar {
+    padding: 2.4rem 3.2rem 2.4rem 3.2rem;
+    margin-bottom: 1.6rem;
+  }
+  .btn-bej {
+    font-size: 1.6rem;
+  }
+  .btn-reg {
+    font-size: 1.6rem;
+  }
+  .bal-hero-container {
+    padding-left: 12rem;
+  }
+  .ingyenes {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2.4rem;
+  }
+  .header1 {
+    font-size: 4.8rem;
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+  }
+  .sub-header {
+    font-size: 2rem;
+    margin-bottom: 3.2rem;
+  }
+  .logok-container {
+    padding: 6.4rem 0;
+  }
+  .logo-img {
+    height: auto;
+    width: 90%;
+  }
+  .kettes-h-container {
+    font-size: 4.8rem;
+  }
+  .h2-description {
+    font-size: 2.8rem;
+  }
+  .elso-container {
+    margin-bottom: 12.8rem;
+  }
+  .masodik-container {
+    margin: 0 4rem 0 4rem;
+  }
+  .h3 {
+    font-size: 4.8rem;
+  }
+  .h3-sub {
+    font-size: 2.4rem;
+  }
+
+  .eszkozok-img-container2 {
+    gap: 8rem;
+    padding: 8rem 0rem 8rem 6rem;
+  }
+
+  .eszkozok-txt-container1 {
+    padding: 8rem 6rem 8rem 0rem;
+  }
+
+  .container {
+    margin-top: 3.2rem;
+    padding: 6.4rem;
+  }
+  .FAQ-H {
+    font-size: 4rem;
+    padding-bottom: 4rem;
+  }
+}
