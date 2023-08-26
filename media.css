@@ -6,7 +6,15 @@
   .btn-bej {
     font-size: 1.6rem;
   }
+
+  .btn-bej:hover {
+    font-size: 1.6rem;
+  }
   .btn-reg {
+    font-size: 1.6rem;
+  }
+
+  .btn-reg:hover {
     font-size: 1.6rem;
   }
   .bal-hero-container {
@@ -41,6 +49,10 @@
   }
   .elso-container {
     margin-bottom: 12.8rem;
+  }
+
+  .poster-img {
+    padding: 0.8rem;
   }
   .masodik-container {
     margin: 0 4rem 0 4rem;

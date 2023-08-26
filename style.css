@@ -5,6 +5,7 @@
   --grey: #e2e9ec;
   --light-primary: #a29bfe;
   --dark-primary: #7a5df0;
+  --hover-primary: #8465ff;
   --light-yellow: #ffffff;
   --yellow: #faff0b;
   --light-black: #201f2b;
@@ -67,7 +68,21 @@ body {
   margin-right: 3.2rem;
   text-align: center;
   letter-spacing: 0.1rem;
+
+  transition: all 0.3s ease;
 }
+
+.btn-bej:hover {
+  display: inline-block;
+  color: var(--light-black);
+
+  border: 3px solid var(--grey);
+  background-color: var(--grey);
+
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+}
+
 .btn-reg {
   display: inline-block;
   color: #fff;
@@ -78,6 +93,15 @@ body {
   border-radius: 0.8rem;
   font-weight: 600;
   letter-spacing: 0.1rem;
+  transition: all 0.3s ease;
+}
+
+.btn-reg:hover {
+  display: inline-block;
+  color: #fff;
+  background-color: var(--hover-primary);
+
+  cursor: pointer;
 }
 
 .hero-container {
