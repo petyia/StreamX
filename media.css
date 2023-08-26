@@ -1,3 +1,46 @@
+@media screen and (max-width: 1780px) {
+  .h3 {
+    font-size: 5.4rem;
+  }
+  .masodik-container {
+    margin: 0 8rem 4rem 8rem;
+  }
+
+  .elso-container {
+    margin-bottom: 24rem;
+  }
+}
+
+@media screen and (max-width: 1650px) {
+  .header1 {
+    font-size: 5.4rem;
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+  }
+  .bal-hero-container {
+    padding-left: 12rem;
+  }
+
+  .elso-container {
+    margin-bottom: 20rem;
+  }
+
+  .poster-img {
+    padding: 1.2rem;
+  }
+
+  .eszkozok-txt-container1 {
+    padding: 8rem 11rem 8rem 0rem;
+  }
+  .h3 {
+    font-size: 5.4rem;
+  }
+
+  .masodik-container {
+    margin: 0 4rem 0 4rem;
+  }
+}
+
 @media screen and (max-width: 1480px) {
   .nav-bar {
     padding: 2.4rem 3.2rem 2.4rem 3.2rem;

@@ -5,7 +5,7 @@
   --grey: #e2e9ec;
   --light-primary: #a29bfe;
   --dark-primary: #7a5df0;
-  --hover-primary: #8465ff;
+  --hover-primary: #8f74ff;
   --light-yellow: #ffffff;
   --yellow: #faff0b;
   --light-black: #201f2b;
@@ -310,15 +310,16 @@ body {
 }
 
 .eszkozok-img2 {
+  display: block;
   height: 100%;
   width: 100%;
 }
 
 .eszkozok-txt-container1 {
-  padding: 8rem 11rem 8rem 0rem;
+  padding: 8rem 8rem 8rem 0rem;
 }
 .eszkozok-txt-container2 {
-  padding: 8rem 0rem 8rem 11rem;
+  padding: 8rem 0rem 8rem 8rem;
 }
 .h3 {
   font-family: "Lexend", sans-serif;
@@ -355,21 +356,23 @@ body {
 }
 
 .accordion .accordion-item {
-  padding-bottom: 0.8rem;
+  /* padding-bottom: 0.8rem; */
   border-bottom: 1px solid #e5e5e5;
 }
 .accordion .accordion-item button[aria-expanded="true"] {
   border-bottom: 1px solid var(--light-primary);
 }
 .accordion button {
+  font-family: "Lexend", sans-serif;
   position: relative;
   display: block;
   text-align: left;
   width: 100%;
-  padding: 1em 0;
+  padding: 3rem 0;
+  /* padding: 1em 0; */
   color: #fff;
   font-size: 2.4rem;
-  font-weight: 400;
+  font-weight: 600;
   border: none;
   background: none;
   outline: none;
@@ -378,6 +381,7 @@ body {
 .accordion button:focus {
   cursor: pointer;
   color: var(--light-primary);
+  /* background-color: #4a477267; */
 }
 .accordion button:hover::after,
 .accordion button:focus::after {
@@ -386,14 +390,14 @@ body {
   border: 1px solid var(--light-primary);
 }
 .accordion button .accordion-title {
-  padding: 1em 1.5em 1em 0;
+  padding: 1em 1.5em 1em 0rem;
 }
 .accordion button .icon {
   display: inline-block;
   position: absolute;
-  /* top: 18px; */
+  top: 28px;
   right: 0;
-  width: 22px;
+  width: 32px;
   height: 22px;
   /* border: 1px solid;
   border-radius: 22px; */
@@ -402,21 +406,23 @@ body {
   display: block;
   position: absolute;
   content: "";
-  top: 9px;
-  left: 5px;
-  width: 10px;
-  height: 2px;
+  top: 14px;
+  left: 6px;
+  width: 16px;
+  height: 4px;
   background: currentColor;
+  border-radius: 1px;
 }
 .accordion button .icon::after {
   display: block;
   position: absolute;
   content: "";
-  top: 5px;
-  left: 9px;
-  width: 2px;
-  height: 10px;
+  top: 8px;
+  left: 12px;
+  width: 4px;
+  height: 16px;
   background: currentColor;
+  border-radius: 1px;
 }
 .accordion button[aria-expanded="true"] {
   color: var(--light-primary);
@@ -440,5 +446,5 @@ body {
 .accordion .accordion-content p {
   font-size: 2.4rem;
   font-weight: 300;
-  margin: 2.4rem 0;
+  margin: 2.4rem 0 4.8rem 0;
 }
