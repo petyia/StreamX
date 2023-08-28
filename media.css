@@ -125,3 +125,149 @@
     padding-bottom: 4rem;
   }
 }
+@media screen and (max-width: 1220px) {
+  .hero-container {
+    display: grid;
+
+    grid-template-columns: 50fr 50fr;
+  }
+}
+@media screen and (max-width: 1090px) {
+  .hero-container {
+    display: grid;
+
+    grid-template-columns: 45fr 55fr;
+  }
+
+  .nav-bar {
+    padding: 1.6rem 3.2rem 1.6rem 3.2rem;
+    margin-bottom: 2.4rem;
+  }
+  .btn-bej {
+    font-size: 1.2rem;
+    padding: 1rem 2.4rem;
+  }
+
+  .btn-bej:hover {
+    font-size: 1.2rem;
+  }
+  .btn-reg {
+    font-size: 1.2rem;
+    padding: 1.2rem 2.4rem;
+  }
+
+  .btn-reg:hover {
+    font-size: 1.2rem;
+  }
+  .bal-hero-container {
+    padding-left: 10rem;
+  }
+
+  .ingyenes {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 1.6rem;
+  }
+  .header1 {
+    font-size: 3.6rem;
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+  }
+  .sub-header {
+    font-size: 1.8rem;
+    margin-bottom: 2.4rem;
+  }
+
+  .logok-container {
+    padding: 4.8rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 9.6rem 0;
+
+    gap: 6rem;
+  }
+  .logo-img {
+    height: auto;
+    width: 70%;
+  }
+  .kettes-h-container {
+    font-size: 3rem;
+  }
+
+  .kettes-h {
+    margin-bottom: 1.6rem;
+  }
+  .h2-description {
+    font-size: 1.8rem;
+  }
+  .elso-container {
+    margin-bottom: 10.4rem;
+  }
+
+  .poster-img {
+    padding: 0.4rem;
+  }
+  .masodik-container {
+    margin: 0 4rem 0 4rem;
+  }
+  .h3 {
+    font-size: 2.8rem;
+    margin-bottom: 2.4rem;
+  }
+  .h3-sub {
+    font-size: 1.8rem;
+  }
+
+  .eszkozok-img-container2 {
+    gap: 4rem;
+    padding: 4rem 0rem 4rem 3rem;
+  }
+
+  .eszkozok-img2 {
+    height: 100%;
+    width: 80%;
+  }
+
+  .eszkozok-txt-container1 {
+    padding: 4rem 3rem 2rem 0rem;
+  }
+
+  .container {
+    margin-top: 0.8rem;
+    padding: 4.8rem;
+  }
+  .FAQ-H {
+    font-size: 2.8rem;
+    padding-bottom: 3.2rem;
+  }
+
+  .accordion button {
+    padding: 3rem 0;
+    /* padding: 1em 0; */
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  .accordion .accordion-content p {
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 1.6rem 0 3.2rem 0;
+  }
+}
+@media screen and (max-width: 926px) {
+  .hero-container {
+    display: grid;
+
+    grid-template-rows: 45fr 55fr;
+    grid-template-columns: 1fr;
+
+    place-items: center; /* Vízszintesen és függőlegesen is középre igazítás */
+
+    justify-content: center;
+    align-items: center;
+  }
+}

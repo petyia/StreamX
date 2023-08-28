@@ -34,6 +34,7 @@ html {
 body {
   font-family: "Lexend", sans-serif;
   background: radial-gradient(at bottom right, #a29bfe, #201f2b, #030303);
+  background-repeat: no-repeat repeat;
 }
 
 .hero-section {
@@ -41,6 +42,7 @@ body {
 
 .bg-hero {
   background: radial-gradient(at bottom right, #a29bfe, #201f2b, #030303);
+  background-repeat: no-repeat repeat;
 }
 
 .nav-bar {
@@ -141,16 +143,20 @@ body {
   align-self: center;
 }
 .jobb-hero-container {
+  display: grid;
   align-self: center;
   justify-self: center;
-  padding-right: 8rem;
+  /* padding-right: 8rem; */
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  padding: 2.4rem;
 }
 
 .x-img {
   padding-top: 3.2rem;
-  width: 90%;
+  width: 100%;
   height: auto;
-  display: block;
 }
 
 .logok-container {
