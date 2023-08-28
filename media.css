@@ -77,13 +77,25 @@
     font-size: 2rem;
     margin-bottom: 3.2rem;
   }
+
+  .l-container {
+    max-width: 180rem;
+    padding: 9.6rem 3.2rem;
+    margin: 0 auto;
+  }
+
   .logok-container {
-    padding: 6.4rem 0;
+    display: flex;
+    justify-content: space-around;
   }
+
   .logo-img {
-    height: auto;
-    width: 90%;
+    align-self: center;
+    justify-self: center;
+    height: 100%;
+    width: auto;
   }
+
   .kettes-h-container {
     font-size: 4.8rem;
   }
@@ -130,6 +142,23 @@
     display: grid;
 
     grid-template-columns: 50fr 50fr;
+  }
+  .l-container {
+    max-width: 180rem;
+    padding: 9.6rem 3.2rem;
+    margin: 0 auto;
+  }
+
+  .logok-container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .logo-img {
+    align-self: center;
+    justify-self: center;
+    height: 100%;
+    width: auto;
   }
 }
 @media screen and (max-width: 1090px) {
@@ -178,21 +207,24 @@
     margin-bottom: 2.4rem;
   }
 
-  .logok-container {
-    padding: 4.8rem 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: auto;
-    padding: 9.6rem 0;
+  .l-container {
+    max-width: 180rem;
+    padding: 9.6rem 3.2rem;
+    margin: 0 auto;
+  }
 
-    gap: 6rem;
+  .logok-container {
+    display: flex;
+    justify-content: space-around;
   }
+
   .logo-img {
-    height: auto;
-    width: 70%;
+    align-self: center;
+    justify-self: center;
+    height: 100%;
+    width: auto;
   }
+
   .kettes-h-container {
     font-size: 3rem;
   }
@@ -262,12 +294,469 @@
   .hero-container {
     display: grid;
 
-    grid-template-rows: 45fr 55fr;
     grid-template-columns: 1fr;
 
     place-items: center; /* Vízszintesen és függőlegesen is középre igazítás */
 
     justify-content: center;
     align-items: center;
+
+    text-align: center;
+  }
+
+  .nav-bar {
+    padding: 3.2rem 4.8rem 3.2rem 4.8rem;
+    margin-bottom: 1.6rem;
+  }
+  .btn-bej {
+    font-size: 1.6rem;
+  }
+
+  .btn-bej:hover {
+    font-size: 1.6rem;
+  }
+  .btn-reg {
+    font-size: 1.6rem;
+  }
+
+  .btn-reg:hover {
+    font-size: 1.6rem;
+  }
+  .bal-hero-container {
+    padding-left: 12rem;
+  }
+  .ingyenes {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2.4rem;
+  }
+  .header1 {
+    font-size: 4.8rem;
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+  }
+  .sub-header {
+    font-size: 2rem;
+    margin-bottom: 3.2rem;
+  }
+
+  .l-container {
+    max-width: 180rem;
+    padding: 9.6rem 3.2rem;
+    margin: 0 auto;
+  }
+
+  .logok-container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .logo-img {
+    height: 4rem;
+    width: auto;
+  }
+
+  .header1 {
+    justify-self: center;
+    align-self: center;
+  }
+
+  .bal-hero-container {
+    padding: 8rem 10rem;
+  }
+
+  .jobb-hero-container {
+    align-items: center;
+    justify-items: center;
+    padding: 0;
+  }
+
+  .x-img {
+    padding-top: 0rem;
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .kettes-h-container {
+    font-size: 4rem;
+  }
+  .h2-description {
+    font-size: 2.4rem;
+  }
+
+  .elso-container {
+    margin-bottom: 6.4rem;
+  }
+
+  .eszkozok-txt-container2 {
+    padding: 8rem 0rem 8rem 4rem;
+  }
+
+  .masodik-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+
+    text-align: center;
+
+    max-width: 100vw;
+
+    margin: 0 4rem 11.2rem 4rem;
+  }
+
+  .h3 {
+    font-size: 4.8rem;
+  }
+
+  .h3-sub {
+    font-size: 2.4rem;
+  }
+
+  .eszkozok-txt-container1 {
+    padding: 8rem 8rem 4rem 8rem;
+  }
+  .csere {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0 4rem 4rem 4rem;
+  }
+
+  .eszkozok-txt-container2 {
+    padding: 8rem 8rem 4rem 8rem;
+  }
+
+  .eszkozok-img-container2 {
+    padding: 0rem;
+    justify-content: center;
+  }
+  .eszkozok-img2 {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .nav-bar {
+    padding: 2.4rem 3.2rem 2.4rem 3.2rem;
+    margin-bottom: 1.6rem;
+  }
+  .btn-bej {
+    font-size: 1.6rem;
+  }
+
+  .btn-bej:hover {
+    font-size: 1.6rem;
+  }
+  .btn-reg {
+    font-size: 1.6rem;
+  }
+
+  .btn-reg:hover {
+    font-size: 1.6rem;
+  }
+
+  .hero-container {
+    padding: 0 3.2rem;
+  }
+
+  .bal-hero-container {
+    padding: 4rem 2rem;
+  }
+  .ingyenes {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 1.6rem;
+  }
+  .header1 {
+    font-size: 3.2rem;
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+  }
+  .sub-header {
+    font-size: 1.6rem;
+    margin-bottom: 3.2rem;
+  }
+
+  .x-img {
+    padding-top: 0rem;
+    width: 80%;
+    height: auto;
+    display: block;
+  }
+
+  .l-container {
+    max-width: 60rem;
+    padding: 3.2rem 1.6rem;
+    margin: 0 auto;
+  }
+
+  .logok-container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .logo-img {
+    height: 3.2rem;
+    width: auto;
+  }
+
+  .kettes-h {
+    margin-bottom: 0.8rem;
+  }
+
+  .kettes-h-container {
+    font-size: 3.2rem;
+    padding-left: 3.2rem;
+  }
+
+  .h2-description {
+    font-size: 1.6rem;
+  }
+
+  .elso-container {
+    margin-bottom: 12.8rem;
+  }
+
+  .plakatok {
+    position: absolute;
+    display: flex;
+    justify-content: space-around; /* Horizontal spacing between images */
+    align-items: center; /* Vertical alignment of images */
+    bottom: 0;
+    transform: translateY(70%);
+
+    /* Add any styling you need for the poster container */
+  }
+
+  .poster-img img {
+    max-width: 100%; /* Ensure images don't exceed their container */
+    height: auto;
+    /* Add any styling you need for the images themselves */
+    border-radius: 0.8rem;
+  }
+
+  /* Apply additional margin to the first and last poster-img elements */
+  .poster-img:first-child {
+    margin-left: 0.8rem; /* Adjust as needed */
+  }
+
+  .poster-img:last-child {
+    margin-right: 0.8rem; /* Adjust as needed */
+  }
+
+  .poster-img {
+    padding: 0.2rem;
+  }
+  .masodik-container {
+    margin: 0 auto;
+  }
+  .h3 {
+    font-size: 2.4rem;
+  }
+  .h3-sub {
+    font-size: 1.6rem;
+  }
+
+  .eszkozok-img-container2 {
+    gap: 8rem;
+    padding: 0rem 8rem 8rem 8rem;
+  }
+
+  .eszkozok-txt-container1 {
+    padding: 0rem 8rem 2rem 8rem;
+  }
+
+  .eszkozok-txt-container2 {
+    padding: 8rem 8rem 2rem 8rem;
+  }
+
+  .container {
+    margin-top: 3.2rem;
+    padding: 6.4rem;
+  }
+  .FAQ-H {
+    font-size: 2.4rem;
+    padding-bottom: 2rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .hero-container {
+    display: grid;
+
+    grid-template-columns: 1fr;
+
+    place-items: center; /* Vízszintesen és függőlegesen is középre igazítás */
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    padding: 0 1.6rem;
+  }
+
+  .nav-bar {
+    padding: 3.2rem 4.8rem 3.2rem 4.8rem;
+    margin-bottom: 1.6rem;
+  }
+  .btn-bej {
+    font-size: 1.6rem;
+  }
+
+  .btn-bej:hover {
+    font-size: 1.6rem;
+  }
+  .btn-reg {
+    font-size: 1.6rem;
+  }
+
+  .btn-reg:hover {
+    font-size: 1.6rem;
+  }
+  .ingyenes {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2.4rem;
+  }
+  .header1 {
+    font-size: 3.2rem;
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+  }
+  .sub-header {
+    font-size: 2rem;
+    margin-bottom: 3.2rem;
+  }
+
+  .x-img {
+    padding-top: 0rem;
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .l-container {
+    max-width: 180rem;
+    padding: 9.6rem 3.2rem;
+    margin: 0 auto;
+  }
+
+  .logok-container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .logo-img {
+    height: 3.2rem;
+    width: auto;
+  }
+
+  .header1 {
+    justify-self: center;
+    align-self: center;
+  }
+
+  .bal-hero-container {
+    padding: 6.4rem 3.2rem;
+  }
+
+  .jobb-hero-container {
+    align-items: center;
+    justify-items: center;
+    padding: 0;
+  }
+
+  .kettes-h-container {
+    font-size: 1.6rem;
+  }
+  .h2-description {
+    font-size: 1.2rem;
+    padding-right: 3.2rem;
+  }
+
+  .elso-container {
+    margin-bottom: 11.6rem;
+  }
+
+  .plakatok {
+    position: absolute;
+    display: flex;
+    justify-content: space-around; /* Horizontal spacing between images */
+    align-items: center; /* Vertical alignment of images */
+    bottom: 0;
+    transform: translateY(70%);
+
+    /* Add any styling you need for the poster container */
+  }
+
+  .poster-img img {
+    max-width: 100%; /* Ensure images don't exceed their container */
+    height: auto;
+    /* Add any styling you need for the images themselves */
+    border-radius: 0.8rem;
+  }
+
+  /* Apply additional margin to the first and last poster-img elements */
+  .poster-img:first-child {
+    margin-left: 0.8rem; /* Adjust as needed */
+  }
+
+  .poster-img:last-child {
+    margin-right: 0.8rem; /* Adjust as needed */
+  }
+
+  .eszkozok-txt-container2 {
+    padding: 8rem 0rem 8rem 4rem;
+  }
+
+  .masodik-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+
+    text-align: center;
+
+    max-width: 100vw;
+
+    margin: 0 4rem 11.2rem 4rem;
+  }
+
+  .h3 {
+    font-size: 2.4rem;
+  }
+
+  .h3-sub {
+    font-size: 1.4rem;
+  }
+
+  .eszkozok-txt-container1 {
+    padding: 2rem 2rem 1rem 2rem;
+  }
+  .csere {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0 4rem 4rem 4rem;
+  }
+
+  .eszkozok-txt-container2 {
+    padding: 2rem 2rem 1rem 2rem;
+  }
+
+  .eszkozok-img-container2 {
+    padding: 0rem;
+    justify-content: center;
+  }
+  .eszkozok-img2 {
+    height: auto;
+    width: 100%;
+  }
+
+  .accordion .accordion-content p {
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin: 1.6rem 0 3.2rem 0;
   }
 }

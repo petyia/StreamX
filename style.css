@@ -110,6 +110,11 @@ body {
   display: grid;
 
   grid-template-columns: 45fr 55fr;
+
+  max-width: 200rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  align-items: center;
 }
 
 .ingyenes {
@@ -159,25 +164,27 @@ body {
   height: auto;
 }
 
+.l-container {
+  max-width: 180rem;
+  padding: 9.6rem 3.2rem;
+  margin: 0 auto;
+}
+
 .logok-container {
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  width: 100%;
-  height: auto;
-  padding: 9.6rem 0;
 }
 
 .logo-img {
   align-self: center;
   justify-self: center;
   height: 100%;
-  width: 100%;
+  width: auto;
 }
 
-.die {
+/* .die {
   width: 12.8%;
-}
+} */
 
 .elso-container {
   position: relative;
@@ -202,7 +209,7 @@ body {
 
 .kettes-h-container {
   position: absolute;
-  top: 30%;
+  top: 25%;
   left: 0;
   margin-left: auto;
   margin-right: auto;
