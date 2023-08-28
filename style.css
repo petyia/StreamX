@@ -144,7 +144,7 @@ body {
 }
 
 .bal-hero-container {
-  padding-left: 18rem;
+  padding-left: 16rem;
   align-self: center;
 }
 .jobb-hero-container {
@@ -369,7 +369,8 @@ body {
 }
 
 .accordion .accordion-item {
-  /* padding-bottom: 0.8rem; */
+  /* padding-right: 0.8rem; */
+
   border-bottom: 1px solid #e5e5e5;
 }
 .accordion .accordion-item button[aria-expanded="true"] {
@@ -404,16 +405,26 @@ body {
 }
 .accordion button .accordion-title {
   padding: 1em 1.5em 1em 0rem;
+
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+
+  -webkit-hyphenate-limit-before: 1; /* For Safari */
+  -webkit-hyphenate-limit-after: 2; /* For Safari */
+  -ms-hyphenate-limit-chars: 10 3 4;
+  hyphenate-limit-chars: 2 1 1;
 }
 .accordion button .icon {
   display: inline-block;
   position: absolute;
   top: 28px;
-  right: 0;
+  right: -2%;
   width: 32px;
   height: 22px;
   /* border: 1px solid;
   border-radius: 22px; */
+  mix-blend-mode: difference;
 }
 .accordion button .icon::before {
   display: block;
