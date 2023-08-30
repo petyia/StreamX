@@ -45,12 +45,35 @@ body {
   background-repeat: no-repeat repeat;
 }
 
+.header {
+}
+
 .nav-bar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 3.2rem;
   margin-bottom: 3.2rem;
+}
+
+/* STICKY NAVIGATION */
+.sticky .header {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 8rem;
+  padding-top: 0 rem;
+  padding-bottom: 2rem;
+  background-color: rgba(0, 0, 0, 0.97);
+  z-index: 999;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+
+  transition: all 0.3s ease;
+}
+
+.sticky .section-hero {
+  margin-top: 9.6rem;
 }
 
 .btn-container {
@@ -81,7 +104,6 @@ body {
   border: 3px solid var(--grey);
   background-color: var(--grey);
 
-  letter-spacing: 0.1rem;
   cursor: pointer;
 }
 
@@ -410,11 +432,6 @@ body {
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-
-  -webkit-hyphenate-limit-before: 1; /* For Safari */
-  -webkit-hyphenate-limit-after: 2; /* For Safari */
-  -ms-hyphenate-limit-chars: 10 3 4;
-  hyphenate-limit-chars: 2 1 1;
 }
 .accordion button .icon {
   display: inline-block;
@@ -472,4 +489,85 @@ body {
   font-size: 2.4rem;
   font-weight: 300;
   margin: 2.4rem 0 4.8rem 0;
+}
+
+.footer {
+  background-color: #030303;
+  padding: 2.4rem;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+}
+
+.footer-container1 {
+  display: flex;
+  gap: 8%;
+  justify-content: center;
+  padding: 0rem 0rem 2rem 0rem;
+
+  color: #e2e9ec;
+  font-size: 1.4rem;
+  height: 100%;
+  width: 100%;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  flex-wrap: wrap;
+}
+
+.footer-container2 {
+  display: flex;
+  gap: 4%;
+  justify-content: center;
+  padding: 2rem 0rem 4rem 0rem;
+
+  color: #e2e9ec;
+  font-size: 1.2rem;
+  height: 100%;
+  width: 100%;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  flex-wrap: wrap;
+  transition: all 0.3s ease;
+}
+
+.elso-footer-item {
+  list-style: none;
+  text-transform: uppercase;
+
+  padding-bottom: 2rem;
+
+  cursor: pointer;
+}
+
+.elso-footer-item:hover {
+  color: var(--hover-primary);
+}
+
+footer .elso-footer-item2 {
+  list-style: none;
+  padding-bottom: 2rem;
+
+  cursor: pointer;
+}
+
+.elso-footer-item2:hover {
+  color: var(--hover-primary);
+}
+
+.rights-container {
+  display: flex;
+}
+
+.rights {
+  color: #e2e9ec;
+  font-size: 0.8rem;
+  height: 100%;
+  width: 100%;
+  font-weight: 400;
+  letter-spacing: 0.4px;
+  text-align: center;
+  padding-bottom: 4rem;
 }
