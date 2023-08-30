@@ -65,7 +65,7 @@ body {
   height: 8rem;
   padding-top: 0 rem;
   padding-bottom: 2rem;
-  background-color: rgba(0, 0, 0, 0.97);
+  background-color: rgba(0, 0, 0, 0.88);
   z-index: 999;
   box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
 
@@ -90,7 +90,7 @@ body {
   border: 3px solid #fff;
   border-radius: 0.8rem;
   font-weight: 600;
-  margin-right: 3.2rem;
+  margin-right: 1.6rem;
   text-align: center;
   letter-spacing: 0.1rem;
 
