@@ -97,6 +97,10 @@ body {
   transition: all 0.3s ease;
 }
 
+/* .a-link {
+  text-decoration: ;
+} */
+
 .btn-bej:hover {
   display: inline-block;
   color: var(--light-black);

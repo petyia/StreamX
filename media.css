@@ -625,7 +625,7 @@
 
   .x-img {
     padding-top: 0rem;
-    width: 100%;
+    width: 105%;
     height: auto;
     display: block;
   }
@@ -663,9 +663,10 @@
 
   .kettes-h-container {
     position: absolute;
-    top: 20%;
+    top: 30%;
     left: 0;
-    font-size: 3rem;
+    font-size: 3.2rem;
+    line-height: 1.1;
   }
 
   .h2-description {
@@ -800,9 +801,10 @@
   }
 
   .kettes-h-container {
-    font-size: 2.4rem;
-    top: 20%;
-    line-height: 1;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    font-size: 3.2rem;
   }
 
   .csere {
@@ -866,7 +868,9 @@
 
   .kettes-h-container {
     padding: 0 1.2rem;
-    top: 10%;
+    top: 25%;
+    font-size: 2.4rem;
+    line-height: 1.1;
   }
 
   .elso-container {
@@ -917,7 +921,7 @@
   }
 
   .kettes-h-container {
-    top: 15%;
+    top: 25%;
   }
 
   .h2-description {
